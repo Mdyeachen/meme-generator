@@ -28,7 +28,7 @@ export default function Meme() {
   };
 
   return (
-    <div className="form w-full bg-gradient-to-r from-[#328E6E] to-[#67AE6E] py-10 px-4">
+    <div className="form w-full max-w-sm py-10 px-4 mx-auto my-5  border rounded-sm">
       <div className="max-w-xl mx-auto flex flex-col gap-4 text-lg font-medium">
         <input
           className="w-full py-2.5 px-4 bg-[#D4C9BE] text-black/80 rounded-xl"
