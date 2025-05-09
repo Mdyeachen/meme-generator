@@ -7,9 +7,7 @@ The **Meme Generator** is a React-based web application that generate meme image
 
 ## 🖼️ Template Preview
 
-[Play The Game Now](https://Mdyeachen.github.io/Owner avatar
-meme-generator
-/)
+[Play The Game Now](https://Mdyeachen.github.io/meme-generator/)
 
 <p align="center">
   <img src="preview/01.png" width="100%" alt="Meme Generator" />
