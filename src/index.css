@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: OswaldLight;
+  src: url(./assets/Oswald/Light.woff);
+}
+
+@font-face {
+  font-family: OswaldRegular;
+  src: url(./assets/Oswald/Regular.woff);
+}
+
+@font-face {
+  font-family: OswaldMedium;
+  src: 
+  url(./assets/Oswald/Medium.woff);
+}
+@font-face {
+  font-family: OswaldSemiBold;
+  src: url(./assets/Oswald/SemiBold.woff);
+}
+
+@font-face {
+  font-family: OswaldBold;
+  src: url(./assets/Oswald/Bold.woff);
+}
+
+body{
+  font-family: OswaldLight;
+}
+
+@layer utilities {
+  .custom-stroke {
+    -webkit-text-stroke: 2px rgb(61, 61, 61)k;
+    color: white;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000;
+  }
+}
